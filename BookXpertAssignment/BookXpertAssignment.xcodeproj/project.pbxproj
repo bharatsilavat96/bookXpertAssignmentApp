@@ -9,23 +9,39 @@
 /* Begin PBXBuildFile section */
 		36F934AF2DA841E4004C326D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934AE2DA841E4004C326D /* AppDelegate.swift */; };
 		36F934B12DA841E4004C326D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934B02DA841E4004C326D /* SceneDelegate.swift */; };
-		36F934B32DA841E4004C326D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934B22DA841E4004C326D /* ViewController.swift */; };
 		36F934B62DA841E4004C326D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F934B42DA841E4004C326D /* Main.storyboard */; };
 		36F934B92DA841E4004C326D /* BookXpertAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36F934B72DA841E4004C326D /* BookXpertAssignment.xcdatamodeld */; };
 		36F934BB2DA841E6004C326D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F934BA2DA841E6004C326D /* Assets.xcassets */; };
 		36F934BE2DA841E6004C326D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F934BC2DA841E6004C326D /* LaunchScreen.storyboard */; };
+		36F934C72DA84C09004C326D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 36F934C62DA84C09004C326D /* FirebaseAuth */; };
+		36F934C92DA84C09004C326D /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 36F934C82DA84C09004C326D /* FirebaseAuthCombine-Community */; };
+		36F934CB2DA84C85004C326D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36F934CA2DA84C84004C326D /* GoogleService-Info.plist */; };
+		36F934CD2DA90336004C326D /* ImageCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934CC2DA90336004C326D /* ImageCaptureViewController.swift */; };
+		36F934CF2DA90355004C326D /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934CE2DA90355004C326D /* CoreDataViewController.swift */; };
+		36F934D12DA90361004C326D /* PushNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934D02DA90361004C326D /* PushNotificationViewController.swift */; };
+		36F934D32DA9036F004C326D /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934D22DA9036F004C326D /* PdfViewController.swift */; };
+		36F934D52DA903DF004C326D /* UserAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934D42DA903DF004C326D /* UserAuthViewController.swift */; };
+		4E868E2E0B6464987DD14F75 /* Pods_BookXpertAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBE2728FD1737DC2807E0F6 /* Pods_BookXpertAssignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36F934AB2DA841E4004C326D /* BookXpertAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookXpertAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F934AE2DA841E4004C326D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36F934B02DA841E4004C326D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36F934B22DA841E4004C326D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36F934B52DA841E4004C326D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36F934B82DA841E4004C326D /* BookXpertAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookXpertAssignment.xcdatamodel; sourceTree = "<group>"; };
 		36F934BA2DA841E6004C326D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36F934BD2DA841E6004C326D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36F934BF2DA841E6004C326D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F934CA2DA84C84004C326D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36F934CC2DA90336004C326D /* ImageCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewController.swift; sourceTree = "<group>"; };
+		36F934CE2DA90355004C326D /* CoreDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
+		36F934D02DA90361004C326D /* PushNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationViewController.swift; sourceTree = "<group>"; };
+		36F934D22DA9036F004C326D /* PdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfViewController.swift; sourceTree = "<group>"; };
+		36F934D42DA903DF004C326D /* UserAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthViewController.swift; sourceTree = "<group>"; };
+		74C826DEEA7942B31258391A /* Pods-BookXpertAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookXpertAssignment.release.xcconfig"; path = "Target Support Files/Pods-BookXpertAssignment/Pods-BookXpertAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		85A8F13B5FB2D3C96375FBCC /* Pods-BookXpertAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookXpertAssignment.debug.xcconfig"; path = "Target Support Files/Pods-BookXpertAssignment/Pods-BookXpertAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		8EBE2728FD1737DC2807E0F6 /* Pods_BookXpertAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookXpertAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F934C72DA84C09004C326D /* FirebaseAuth in Frameworks */,
+				36F934C92DA84C09004C326D /* FirebaseAuthCombine-Community in Frameworks */,
+				4E868E2E0B6464987DD14F75 /* Pods_BookXpertAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +63,8 @@
 			children = (
 				36F934AD2DA841E4004C326D /* BookXpertAssignment */,
 				36F934AC2DA841E4004C326D /* Products */,
+				757B063E732677FFDFC962CF /* Pods */,
+				43DE5EC73079F01264AD249C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +81,36 @@
 			children = (
 				36F934AE2DA841E4004C326D /* AppDelegate.swift */,
 				36F934B02DA841E4004C326D /* SceneDelegate.swift */,
-				36F934B22DA841E4004C326D /* ViewController.swift */,
+				36F934CC2DA90336004C326D /* ImageCaptureViewController.swift */,
+				36F934CE2DA90355004C326D /* CoreDataViewController.swift */,
+				36F934D02DA90361004C326D /* PushNotificationViewController.swift */,
+				36F934D22DA9036F004C326D /* PdfViewController.swift */,
+				36F934D42DA903DF004C326D /* UserAuthViewController.swift */,
 				36F934B42DA841E4004C326D /* Main.storyboard */,
 				36F934BA2DA841E6004C326D /* Assets.xcassets */,
 				36F934BC2DA841E6004C326D /* LaunchScreen.storyboard */,
 				36F934BF2DA841E6004C326D /* Info.plist */,
 				36F934B72DA841E4004C326D /* BookXpertAssignment.xcdatamodeld */,
+				36F934CA2DA84C84004C326D /* GoogleService-Info.plist */,
 			);
 			path = BookXpertAssignment;
+			sourceTree = "<group>";
+		};
+		43DE5EC73079F01264AD249C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EBE2728FD1737DC2807E0F6 /* Pods_BookXpertAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		757B063E732677FFDFC962CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85A8F13B5FB2D3C96375FBCC /* Pods-BookXpertAssignment.debug.xcconfig */,
+				74C826DEEA7942B31258391A /* Pods-BookXpertAssignment.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +120,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36F934C22DA841E6004C326D /* Build configuration list for PBXNativeTarget "BookXpertAssignment" */;
 			buildPhases = (
+				CEAB34D47F1968035EB202AF /* [CP] Check Pods Manifest.lock */,
 				36F934A72DA841E4004C326D /* Sources */,
 				36F934A82DA841E4004C326D /* Frameworks */,
 				36F934A92DA841E4004C326D /* Resources */,
+				AD6E880A513616357ED7729F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BookXpertAssignment;
+			packageProductDependencies = (
+				36F934C62DA84C09004C326D /* FirebaseAuth */,
+				36F934C82DA84C09004C326D /* FirebaseAuthCombine-Community */,
+			);
 			productName = BookXpertAssignment;
 			productReference = 36F934AB2DA841E4004C326D /* BookXpertAssignment.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +163,9 @@
 				Base,
 			);
 			mainGroup = 36F934A22DA841E4004C326D;
+			packageReferences = (
+				36F934C52DA84C09004C326D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 36F934AC2DA841E4004C326D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F934BE2DA841E6004C326D /* LaunchScreen.storyboard in Resources */,
+				36F934CB2DA84C85004C326D /* GoogleService-Info.plist in Resources */,
 				36F934BB2DA841E6004C326D /* Assets.xcassets in Resources */,
 				36F934B62DA841E4004C326D /* Main.storyboard in Resources */,
 			);
@@ -136,15 +189,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AD6E880A513616357ED7729F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookXpertAssignment/Pods-BookXpertAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookXpertAssignment/Pods-BookXpertAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookXpertAssignment/Pods-BookXpertAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEAB34D47F1968035EB202AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookXpertAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36F934A72DA841E4004C326D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F934B32DA841E4004C326D /* ViewController.swift in Sources */,
+				36F934D32DA9036F004C326D /* PdfViewController.swift in Sources */,
 				36F934AF2DA841E4004C326D /* AppDelegate.swift in Sources */,
 				36F934B92DA841E4004C326D /* BookXpertAssignment.xcdatamodeld in Sources */,
+				36F934CD2DA90336004C326D /* ImageCaptureViewController.swift in Sources */,
+				36F934D12DA90361004C326D /* PushNotificationViewController.swift in Sources */,
+				36F934CF2DA90355004C326D /* CoreDataViewController.swift in Sources */,
 				36F934B12DA841E4004C326D /* SceneDelegate.swift in Sources */,
+				36F934D52DA903DF004C326D /* UserAuthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +385,7 @@
 		};
 		36F934C32DA841E6004C326D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A8F13B5FB2D3C96375FBCC /* Pods-BookXpertAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +413,7 @@
 		};
 		36F934C42DA841E6004C326D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C826DEEA7942B31258391A /* Pods-BookXpertAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +461,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36F934C52DA84C09004C326D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36F934C62DA84C09004C326D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36F934C52DA84C09004C326D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		36F934C82DA84C09004C326D /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36F934C52DA84C09004C326D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		36F934B72DA841E4004C326D /* BookXpertAssignment.xcdatamodeld */ = {
