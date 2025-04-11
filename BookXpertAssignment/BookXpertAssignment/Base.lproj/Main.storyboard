@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AVs-Ag-2po">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -276,6 +277,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Core Data" image="filemenu.and.cursorarrow" catalog="system" id="0x8-5I-RHC"/>
                     <navigationItem key="navigationItem" id="krG-uQ-Vha"/>
+                    <connections>
+                        <outlet property="coreDataTableView" destination="nCu-LZ-jSW" id="aIW-Dp-ZZT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MQF-gU-Hef" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -288,11 +292,50 @@
                     <view key="view" contentMode="scaleToFill" id="H5J-SO-DTO">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FZs-o2-rE3">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ia6-Z5-mFr">
+                                <rect key="frame" x="20" y="401" width="353" height="50"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xNl-wP-lBY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Enable Notification">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="selected" title="Disable Notification">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="addImageButtonAction:" destination="0GP-wb-RHy" eventType="touchUpInside" id="lQq-DR-tqG"/>
+                                    <action selector="enableDisableNotificationButtonAction:" destination="CB1-m2-prV" eventType="touchUpInside" id="OZO-9u-imt"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Vju-62-uHc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ia6-Z5-mFr" firstAttribute="centerX" secondItem="H5J-SO-DTO" secondAttribute="centerX" id="7Mw-c0-MZu"/>
+                            <constraint firstItem="Vju-62-uHc" firstAttribute="trailing" secondItem="FZs-o2-rE3" secondAttribute="trailing" id="8wC-gi-pqR"/>
+                            <constraint firstItem="ia6-Z5-mFr" firstAttribute="centerY" secondItem="H5J-SO-DTO" secondAttribute="centerY" id="DTh-77-Vq6"/>
+                            <constraint firstItem="Vju-62-uHc" firstAttribute="bottom" secondItem="FZs-o2-rE3" secondAttribute="bottom" id="HlZ-VP-eNh"/>
+                            <constraint firstItem="Vju-62-uHc" firstAttribute="trailing" secondItem="ia6-Z5-mFr" secondAttribute="trailing" constant="20" id="M7w-i6-vAZ"/>
+                            <constraint firstItem="FZs-o2-rE3" firstAttribute="leading" secondItem="Vju-62-uHc" secondAttribute="leading" id="Tvr-cl-ZYD"/>
+                            <constraint firstItem="FZs-o2-rE3" firstAttribute="top" secondItem="Vju-62-uHc" secondAttribute="top" id="bvC-Ql-zBy"/>
+                            <constraint firstItem="ia6-Z5-mFr" firstAttribute="leading" secondItem="Vju-62-uHc" secondAttribute="leading" constant="20" id="se5-y1-E0n"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Push Not" image="bell" catalog="system" id="fO3-D1-GWA"/>
                     <navigationItem key="navigationItem" id="eUK-JX-0xv"/>
+                    <connections>
+                        <outlet property="enableDisableNotificationButton" destination="ia6-Z5-mFr" id="mcQ-Ge-Bd9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Evl-xr-chi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3614002C2DA93F1800A5C73B /* ProductResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614002B2DA93F1800A5C73B /* ProductResponseModel.swift */; };
+		3614002E2DA940E600A5C73B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614002D2DA940E600A5C73B /* CoreDataManager.swift */; };
+		361400302DA9411200A5C73B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3614002F2DA9411200A5C73B /* NetworkManager.swift */; };
 		36F934AF2DA841E4004C326D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934AE2DA841E4004C326D /* AppDelegate.swift */; };
 		36F934B12DA841E4004C326D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934B02DA841E4004C326D /* SceneDelegate.swift */; };
 		36F934B62DA841E4004C326D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F934B42DA841E4004C326D /* Main.storyboard */; };
@@ -21,11 +24,13 @@
 		36F934D12DA90361004C326D /* PushNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934D02DA90361004C326D /* PushNotificationViewController.swift */; };
 		36F934D32DA9036F004C326D /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934D22DA9036F004C326D /* PdfViewController.swift */; };
 		36F934D52DA903DF004C326D /* UserAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F934D42DA903DF004C326D /* UserAuthViewController.swift */; };
-		4E868E2E0B6464987DD14F75 /* Pods_BookXpertAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBE2728FD1737DC2807E0F6 /* Pods_BookXpertAssignment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		36F934AB2DA841E4004C326D /* BookXpertAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookXpertAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3614002B2DA93F1800A5C73B /* ProductResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResponseModel.swift; sourceTree = "<group>"; };
+		3614002D2DA940E600A5C73B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3614002F2DA9411200A5C73B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		36EEE7392DA9419500653D51 /* BookXpertAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BookXpertAssignment.app; path = "/Users/bharatshilavat/Desktop/BookXpertApp/BookXpertAssignment/build/Debug-iphoneos/BookXpertAssignment.app"; sourceTree = "<absolute>"; };
 		36F934AE2DA841E4004C326D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36F934B02DA841E4004C326D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36F934B52DA841E4004C326D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,7 +46,6 @@
 		36F934D42DA903DF004C326D /* UserAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthViewController.swift; sourceTree = "<group>"; };
 		74C826DEEA7942B31258391A /* Pods-BookXpertAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookXpertAssignment.release.xcconfig"; path = "Target Support Files/Pods-BookXpertAssignment/Pods-BookXpertAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		85A8F13B5FB2D3C96375FBCC /* Pods-BookXpertAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookXpertAssignment.debug.xcconfig"; path = "Target Support Files/Pods-BookXpertAssignment/Pods-BookXpertAssignment.debug.xcconfig"; sourceTree = "<group>"; };
-		8EBE2728FD1737DC2807E0F6 /* Pods_BookXpertAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookXpertAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,29 +55,28 @@
 			files = (
 				36F934C72DA84C09004C326D /* FirebaseAuth in Frameworks */,
 				36F934C92DA84C09004C326D /* FirebaseAuthCombine-Community in Frameworks */,
-				4E868E2E0B6464987DD14F75 /* Pods_BookXpertAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3614002A2DA93EFA00A5C73B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3614002B2DA93F1800A5C73B /* ProductResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		36F934A22DA841E4004C326D = {
 			isa = PBXGroup;
 			children = (
+				3614002A2DA93EFA00A5C73B /* Model */,
 				36F934AD2DA841E4004C326D /* BookXpertAssignment */,
-				36F934AC2DA841E4004C326D /* Products */,
 				757B063E732677FFDFC962CF /* Pods */,
 				43DE5EC73079F01264AD249C /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		36F934AC2DA841E4004C326D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				36F934AB2DA841E4004C326D /* BookXpertAssignment.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		36F934AD2DA841E4004C326D /* BookXpertAssignment */ = {
@@ -86,6 +89,8 @@
 				36F934D02DA90361004C326D /* PushNotificationViewController.swift */,
 				36F934D22DA9036F004C326D /* PdfViewController.swift */,
 				36F934D42DA903DF004C326D /* UserAuthViewController.swift */,
+				3614002D2DA940E600A5C73B /* CoreDataManager.swift */,
+				3614002F2DA9411200A5C73B /* NetworkManager.swift */,
 				36F934B42DA841E4004C326D /* Main.storyboard */,
 				36F934BA2DA841E6004C326D /* Assets.xcassets */,
 				36F934BC2DA841E6004C326D /* LaunchScreen.storyboard */,
@@ -99,7 +104,6 @@
 		43DE5EC73079F01264AD249C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8EBE2728FD1737DC2807E0F6 /* Pods_BookXpertAssignment.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,7 +140,7 @@
 				36F934C82DA84C09004C326D /* FirebaseAuthCombine-Community */,
 			);
 			productName = BookXpertAssignment;
-			productReference = 36F934AB2DA841E4004C326D /* BookXpertAssignment.app */;
+			productReference = 36EEE7392DA9419500653D51 /* BookXpertAssignment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +170,7 @@
 			packageReferences = (
 				36F934C52DA84C09004C326D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
-			productRefGroup = 36F934AC2DA841E4004C326D /* Products */;
+			productRefGroup = 36F934A22DA841E4004C326D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -240,9 +244,12 @@
 				36F934AF2DA841E4004C326D /* AppDelegate.swift in Sources */,
 				36F934B92DA841E4004C326D /* BookXpertAssignment.xcdatamodeld in Sources */,
 				36F934CD2DA90336004C326D /* ImageCaptureViewController.swift in Sources */,
+				361400302DA9411200A5C73B /* NetworkManager.swift in Sources */,
 				36F934D12DA90361004C326D /* PushNotificationViewController.swift in Sources */,
 				36F934CF2DA90355004C326D /* CoreDataViewController.swift in Sources */,
+				3614002C2DA93F1800A5C73B /* ProductResponseModel.swift in Sources */,
 				36F934B12DA841E4004C326D /* SceneDelegate.swift in Sources */,
+				3614002E2DA940E600A5C73B /* CoreDataManager.swift in Sources */,
 				36F934D52DA903DF004C326D /* UserAuthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +405,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -426,6 +434,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
